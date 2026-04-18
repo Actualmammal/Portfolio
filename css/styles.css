@@ -381,7 +381,7 @@ h1 {
 }
 
 .skills-intro {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .skills-intro p {
@@ -443,14 +443,22 @@ h1 {
   margin: 0 auto;
   padding: 10px 10px;
 }
-.project-hero img {
+
+.project-media img {
   width: 100%;
   height: 300px;
   object-fit: cover;
-
   border-radius: 2px;
-  margin-bottom: 0px;
+  display: block;
 }
+
+.project-media figcaption {
+  margin-top: 8px;
+  font-size: 0.85rem;
+  opacity: 0.7;
+  text-align: center;
+}
+
 .project-header {
   margin-bottom: 0px;
 }

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Maxwell Ostergaard</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <main class="project-page">
+
+
+        <header class="projectHeader" onclick="location.href='index.html'">
+          <h2 class="projectHeaderText">SLIME CITY: TRIALS</h2>
+          <p class="shadow-text">A movement game where slime removes friction.</p>
+        </header>
+
+        <!-- BACK LINK -->
+        <section class="project-back">
+            <a href="projects.html">← Back to Projects</a>
+        </section>
+
+
+        <section class="project-header">
+            <h3>Overview</h3>
+            <p class="project-tagline">
+            Slime city is a movement game where you need to complete each level as fast as possible.
+            As the name implies, the city is made and run by slimes, and you can use these slimes to
+            either gain speed or maintain momentum by being covered in slime.
+            </p>
+        </section>
+
+      <!-- CONTENT IMAGE, use this to show what your describing in your paragraph -->
+      <section class="project-media">
+        <figure>
+          <img src="Images/scMain.jpg" alt="Factory system overview">
+          <figcaption>
+            Gameplay screenshot from a level in area 1.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="project-section">
+        <h3>Contributions</h3>
+        <p>
+          For Slime City: Trials, I was the designer, programmed the main systems and also created most of the levels.
+          That just was just how it ended up playing out.
+        </p>
+        <p>
+          Originally, I started with the character controller, which took me 3 attemtps to get right.
+          I started trying to create one using the Unity Character Controller, but that came with some
+          very annoying limitations, so I ended up building a controller on the Kinematic Character Controller
+          asset from the Unity asset store, which was a great foundation.
+        </p>
+        <p>
+          The controller definitly took more work than anything else in the game to get right, and I think is
+          also by far the best part of the game. In the end there were over 80 paramaters you could edit on the
+          player's movement script alone.
+        </p>
+        <p>
+          Other things I did on this project include:
+        </p>
+        <ul>
+          <li>Fully programmed the level loading and data management systems.</li>
+          <li>Use art assets to create most levels.</li>
+          <li>Create and impliment most UI and UI assets.</li>
+          <li>Create and impliment most SFX.</li>
+          <li>Gameplay programming for most standalone mechanics such as slime sliding, grind rails and more.</li>
+        </ul>
+      </section>
+
+      <section class="project-media">
+        <figure>
+          <img src="Images/scDialouge.png" alt="Factory system overview">
+          <figcaption>
+            The dialouge system we added to give slimes more personality.
+          </figcaption>
+        </figure>
+      </section>
+            <section class="project-media">
+        <figure>
+          <img src="Images/scLeaderboard.jpg" alt="Factory system overview">
+          <figcaption>
+            The in game leaderboard which players can compete for times on.
+          </figcaption>
+        </figure>
+      </section>
+
+        <!-- EXTRA MEDIA -->
+      <section class="project-section">
+        <h3>Screenshots</h3>
+
+        <div class="gallery">
+            <img src="Images/scLight.png" class="gallery-img">
+            <img src="Images/scMM.jpg" class="gallery-img">
+            <img src="Images/scOld.png" class="gallery-img">
+            <img src="Images/scBreakBoards.jpg" class="gallery-img">
+
+        </div>
+      </section>
+
+
+        <div class="overlay" id="overlay">
+            <button class="nav prev">&#10094;</button>
+            <img id="overlay-img">
+            <button class="nav next">&#10095;</button>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer-buttons">
+
+        <a class="footer-btn" href="https://ActualMammal.itch.io" target="_blank">
+          Itch.io
+        </a>
+
+        <a class="footer-btn" href="mailto:howettm@gmail.com">
+          Email
+        </a>
+
+        <a class="footer-btn" href="https://github.com/ActualMammal" target="_blank">
+          GitHub
+        </a>
+
+      </div>
+
+      <p>Built using Unity + HTML/CSS</p>
+    </footer>
+
+    </div>
+      <script src="gallery.js"></script>
+
+  </body>
+</html>
